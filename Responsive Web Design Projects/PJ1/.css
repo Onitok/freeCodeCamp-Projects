@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-image: url(https://scontent-frt3-2.cdninstagram.com/vp/034a3566995ead162344c575080578ac/5DB39D64/t51.2885-15/sh0.08/e35/c126.0.828.828/s640x640/49365571_2237203019885430_5488252024847778951_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com)
+}
+
+#main {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: 50px;
+  font-style: oblique;
+  background-color: rgb(0, 100, 250);
+  opacity: 0.9;
+}
+#quote {
+  background-color: white;
+}
+#image {
+  border-radius: 50%;
+  max-width: 50%;
+  display: block;
+  height: auto;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+  margin-top: 30px;
+  background-color: white;
+  opacity: 0.9;
+}
+#tribute-info {
+  background-color: white;
+  opacity: 0.9;
+}
+#tribute-link {
+  background-color: white;
+  opacity: 0.9;
+}

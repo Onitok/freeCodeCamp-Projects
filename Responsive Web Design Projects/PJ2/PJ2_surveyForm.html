@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <title>FCC Survey</title>
+  <link rel="stylesheet" href="C:\Users\Me\Documents\Atom PJ's\freeCodeCamp Projects\Responsive Web Design Projects\PJ2\style.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <div id="box1">
+    <p id="description">
+      Let Us Know What You Think
+    </p>
+  </div>
+  <form id="survey-form" action="index.html" method="post">
+    <div class="user">
+      <label id="name-label">*Name:</label><br>
+      <input type="text" id="name" required="name" placeholder="Enter Your Name Here"><br>
+      <label id="email-label">*Email:</label><br>
+      <input type="email" id="email" required="email" placeholder="Enter Your Email Here"><br>
+      <label id="number-label">Age</label><br>
+      <input type="number" min="0" max="100" id="number" placeholder="Age">
+    </div><br>
+    <fieldset>
+
+      <div>
+        <label>On a rate from 1-5, how would you rate this Survey?</label>
+        <select id = "dropdown">
+          <option value = "1">one</option>
+          <option value = "2">two</option>
+          <option value = "3">three</option>
+          <option value = "4">four</option>
+          <option value = "5">five</option>
+        </select>
+      </div>
+    </fieldset><br>
+    <label for="userRating">How Was Your Day?</label>
+    <input type="radio" name="userRating" value="1">Shit
+    <input type="radio" name="userRating" value="1">Ok
+    <input type="radio" name="userRating" value="1">Good!
+    <input type="radio" name="userRating" value="1">Immaculate!<br>
+    <br>
+    <fieldset>
+      <input type="checkbox" name="plan" value="2">I plan on becoming the best developer!<br>
+      <input type="checkbox" name=""produce value="3">I need the best income for the work I produce!<br>
+      <input type="checkbox" name="program" value="4">I am commited to programming!
+    </fieldset><br>
+    <textarea name="comment" rows="8" cols="80"></textarea><br>
+
+    <button id="submit" name="button">Submit</button>
+
+  </form>
+
+
+  <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
