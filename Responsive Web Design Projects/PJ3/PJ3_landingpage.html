@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PJ3 Landing Page</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="nav-bar-container">
+        <img src="Images\Logo.png" alt="Logo Image" id="header-img" />
+
+        <nav id="nav-bar" role="navigation">
+          <ul>
+            <li class="nav-link">
+              <a href="#zone">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="#about-us">About</a>
+            </li>
+            <li class="nav-link">
+              <a href="#support">Support</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="home">
+      <section class="zone">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/0qs2cPVZQ8w"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </div>
+    <section id="about-us">
+      <h4>Welcome To Lofi Candy</h4>
+      <p></p>
+    </section>
+    <section id="support">
+      <form
+        id="form"
+        method="POST"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <a href="">Image</a>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter email"
+          name="email"
+        /><input id="submit" type="submit" value="submit" />
+      </form>
+    </section>
+
+    <script
+      defer
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    ></script>
+  </body>
+</html>
